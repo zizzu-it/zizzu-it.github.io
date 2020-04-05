@@ -1,20 +1,42 @@
 ---
-title: Jekyll Serif - Jekyll Small Business Theme
 layout: default
 bodyClass: page-home
 ---
 
-<div class="intro pb-4">
-  <div class="container">
-    <h1>Serif - Jekyll Small Business Theme.</h1>
-    <p>Our business helps hundreds of customers with their accounting and taxation needs each year.</p>
+<div class="container pt-2">
+  <div class="call w-100 p-3 d-block">
+    <h1>
+      <!-- <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logo.png" /></a> -->
+      Stay a casa? <small>Si, ma la spesa?</small>
+    </h1>
+    <p>
+      <!-- Zizzu.it è un progetto aperto a tutti, Pubblica Amministrazione, Associazioni di categoria e privati cittadini.
+      <br>
+      Ognuno può fare la sua parte per rendere più facile possibile far scoprire ai cittadini i negozi di quartiere che effettuano consegne a domicilio.
+      <br> -->
+      Alcuni Enti locali e Associazioni di categoria hanno messo su mappa i loro contributi, noi li raccogliamo e li portiamo ai cittadini in maniera facile e personalizzabile.
+      <br>
+      <br>
+      <a href='/approfondimenti'>scopri di più</a>
+<!--
+      <br>
+       Siamo programmatori, sappiamo solo lanciare le falangette sulla tastiera
+       e scrivere codice mentre altre categorie rischiano di più. -->
+    </p>
   </div>
 </div>
 
-<div class="container pt-2">
+
+
+
+<div class="container pt-2 d-none">
   <div class="call">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+      <div class="call-phone"><strong>Facebook: </strong>
+        <a href="mailto:{{ site.data.contact.facebook }}" >
+          Visita la pagina
+        </a>
+      </div>
       <div class="call-email"><strong>Email: </strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
@@ -22,15 +44,15 @@ bodyClass: page-home
       </div>
     </div>
     <div class="call-box-bottom">
-      <a href="{{site.baseurl}}/contact" class="button">Contact</a>
+      <a href="https://forms.gle/2PHKwhzFAKVK1TPA7" target="_blank" class="button">oppure scrivici</a>
     </div>
   </div>
 </div>
 
-<div class="container pt-8 pt-md-10">
+<!-- <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Our Services</h2>
+      <h2 class="title-3 text-dark mb-3">A chi si rivolge</h2>
     </div>
     {% for service in site.services %}
     <div class="col-12 col-md-4 mb-1">
@@ -48,19 +70,20 @@ bodyClass: page-home
       <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="container pt-5 pb-5 pt-md-7 pb-md-7">
   <div class="row justify-content-center">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
+      <h2 class="title-3 text-dark mb-4 text-center">A chi si rivolge il progetto</h2>
     </div>
     {% for feature in site.data.features %}
-    <div class="col-12 col-md-6 col-lg-4 mb-2">
+    <div class="col-12 col-md-4 col-lg-4 mb-2">
       <div class="feature">
         {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
         <div class="feature-content">{{ feature.description }}</div>
+        <button class="btn btn-primary">{{ feature.CTA }} </button>
       </div>
     </div>
     {% endfor %}
