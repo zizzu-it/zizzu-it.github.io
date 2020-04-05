@@ -7,17 +7,22 @@ bodyClass: page-home
   <div class="call w-100 p-3 d-block">
     <h1>
       <!-- <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logo.png" /></a> -->
-      Stay a casa? <small>Si, ma la spesa?</small>
+      <!-- Dobbiamo stare a casa. <span class="h3 ">Ma la spesa?</span> -->
+      I negozi del tuo quartiere
     </h1>
     <p>
       <!-- Zizzu.it è un progetto aperto a tutti, Pubblica Amministrazione, Associazioni di categoria e privati cittadini.
       <br>
       Ognuno può fare la sua parte per rendere più facile possibile far scoprire ai cittadini i negozi di quartiere che effettuano consegne a domicilio.
       <br> -->
-      Alcuni Enti locali e Associazioni di categoria hanno messo su mappa i loro contributi, noi li raccogliamo e li portiamo ai cittadini in maniera facile e personalizzabile.
+      In questo periodo di emergenza, alcuni Enti locali e Associazioni di categoria hanno messo su mappa i loro contributi, 
+      noi li aiutiamo, raccogliamo i dati e li portiamo ai cittadini in maniera facile e personalizzabile.
       <br>
       <br>
-      <a href='/approfondimenti'>scopri di più</a>
+      <a href='/mappa.html' type="button" class="float-right btn btn-primary">
+        Vai alla mappa
+      </a>
+
 <!--
       <br>
        Siamo programmatori, sappiamo solo lanciare le falangette sulla tastiera
@@ -72,18 +77,24 @@ bodyClass: page-home
   </div>
 </div> -->
 
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+<div class="container pt-2 pb-2 pt-md-4 pb-md-4">
   <div class="row justify-content-center">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-4 text-center">A chi si rivolge il progetto</h2>
-    </div>
+    <!-- <div class="col-12">
+      <h2 class="p-1 title-3 text-dark mb-4 text-center" style="background-color: #ffffffeb;">
+        A chi si rivolge il progetto
+      </h2>
+    </div> -->
     {% for feature in site.data.features %}
     <div class="col-12 col-md-4 col-lg-4 mb-2">
       <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
+        {% if feature.image %}
+          <div class="feature-image d-none d-sm-block">
+            <img alt="{{ feature.title }} logo" src="{{ feature.image }}" />
+          </div>
+        {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
-        <div class="feature-content">{{ feature.description }}</div>
-        <button class="btn btn-primary">{{ feature.CTA }} </button>
+        <div class="feature-content">{{ feature.description  | markdownify }}</div>
+        <a href="https://forms.gle/2PHKwhzFAKVK1TPA7" target="_blank" type="button" class="mt-2 btn btn-outline-primary">{{ feature.CTA }} </a>
       </div>
     </div>
     {% endfor %}

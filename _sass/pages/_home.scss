@@ -1,24 +1,18 @@
 .page-home {
-  // background-image: url('../images/home_bg.svg');
+  background-image: url('../images/home_bg.svg');
+  background-position: center 30vh;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
-  }
   @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
+    background-size: cover;
+    background-position: center 80px;
   }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
-  }
-  .call {
+
+    .call {
     position: relative;
     overflow: hidden;
     background-color: #ffffff;
+    background-color: #ffffffeb;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
       0 5px 15px rgba(0, 0, 0, 0.07);
@@ -116,4 +110,11 @@
       }
     }
   }
+}
+
+
+@media (min-width: 576px) {
+  .page-home {
+  }
+
 }

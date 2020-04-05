@@ -1,18 +1,20 @@
 [
   {
     "title": "Enti locali",
-    "description": "Crea una mappa su Google My Maps, è facile e veloce. Molte amministrazioni l'hanno già fatto. Nessun costo, tutto offerto da Google",
+    "description": "*Crea una mappa su Google My Maps, è facile e veloce.* Molte amministrazioni l'hanno già fatto. Nessun costo, tutto offerto da Google",
     "CTA": "Scopri come",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
     "title": "Ass. di categoria",
-    "description": "Vuoi portare più clienti ai tuoi associati? Scopri come creare una mappa su Google My Maps, è facile e veloce.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "description": "*Vuoi portare più clienti ai tuoi associati?* Scopri come creare una mappa su Google My Maps, è facile e veloce.",
+    "image": "images/features/noun_The Process_1885341.svg",
+    "CTA": "Inizia ora"
   },
   {
     "title": "Privati cittadini",
-    "description": "Puoi segnalarci mappe non ancora incluse nel database o suggerirci miglioramenti",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "description": "Puoi segnalarci la mappa della *tua città* o suggerirci miglioramenti",
+    "image": "images/features/noun_3d modeling_1885342.svg",
+    "CTA": "Partecipa"
   }
 ]

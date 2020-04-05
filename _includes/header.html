@@ -1,12 +1,29 @@
 <div class='header {{include.headerClass}}'>
   <div class="container">
     <div class="logo">
-      <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logo.png" /></a>
+      <a href="{{site.baseurl}}/">
+        <img src="{{site.baseurl}}/assets/images/logo.png" />
+
+        <span class="h2">
+          Zizzu.it
+          <small  class="d-inline-block text-muted" 
+              style="display: block !important;font-size: 10px;"> 
+              stay safe, stay at home 
+          </small>
+        </span>
+      </a>
     </div>
-    <div class="logo-mobile">
+    <!-- <div class="logo-mobile">
       <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logo.png" /></a>
-    </div>
+      <span class="h2">
+        Zizzu.it
+        <small  class="d-inline-block text-muted" 
+            style="display: block !important;font-size: 10px;"> 
+            stay safe, stay at home 
+        </small>
+      </span>
+    </div> -->
     {% include main-menu.html %}
-    {% include hamburger.html %}
+    <!-- {% include hamburger.html %} -->
   </div>
 </div>
