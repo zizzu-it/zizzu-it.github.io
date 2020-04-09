@@ -1,9 +1,23 @@
-<div id="main-menu" class="main-menu">
+<div id="main-menu" class="col-8 main-menu">
   <ul>
-    <!-- <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li> -->
-    <!-- <li><a href="{{site.baseurl}}/il-kit/" class="{% if page.url contains 'il-kit' %}current{% endif %}">Il kit</a></li>
-    <li><a href="{{site.baseurl}}/partecipanti/" class="{% if page.url contains 'partecipanti' %}current{% endif %}">Chi partecipa?</a></li>
-    <li><a href="{{site.baseurl}}/chi-siamo/" class="{% if page.url contains 'team' %}current{% endif %}">Chi siamo</a></li>
-    <li><a href="{{site.baseurl}}/legals/" class="{% if page.url contains 'legals' %}current{% endif %}">Legals</a></li> -->
+    <li>
+      <!-- <a href="{{site.baseurl}}/#partecipa" class="float-left {% if page.url contains 'il-kit' %}current{% endif %}"> -->
+        <a href="{{site.baseurl}}/il-kit" class="float-left {% if page.url contains 'il-kit' %}current{% endif %}">
+        Come partecipare?
+      </a>
+    </li>
+    <!-- <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contatti</a></li> -->
+    <!-- <li>
+      <a href="{{site.baseurl}}/legals/" class="{% if page.url contains 'legals' %}current{% endif %}">
+        Legals
+      </a>
+    </li> -->
+    <li class="ml-auto">
+      <a target="mappa-zizzu" href='http://www.zizzu.it' type="button" class="text-white float-right btn btn-primary">
+        MAPPA
+      </a>
+  </li>
   </ul>
 </div>
+
+

@@ -1,11 +1,11 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
+#  this ensures Jekyll reads the file to be transformed into CSS later
+#  only Main files contain this front matter, not partials.
 ---
 
-// Font
+// // Font
 @import url('https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700');
-// Bootstrap
+// // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
 @import 'bootstrap/variables';
@@ -16,7 +16,7 @@
 @import 'bootstrap/type';
 @import 'bootstrap/tables';
 @import "bootstrap/images";
-// @import "bootstrap/code";
+@import "bootstrap/code";
 @import "bootstrap/forms";
 @import "bootstrap/buttons";
 @import "bootstrap/transitions";

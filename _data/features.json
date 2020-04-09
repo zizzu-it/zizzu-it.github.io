@@ -15,6 +15,7 @@
     "title": "Privati cittadini",
     "description": "Puoi segnalarci la mappa della *tua città* o suggerirci miglioramenti",
     "image": "images/features/noun_3d modeling_1885342.svg",
-    "CTA": "Partecipa"
+    "CTA": "Partecipa",
+    "private": true
   }
 ]

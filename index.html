@@ -6,27 +6,13 @@ bodyClass: page-home
 <div class="container pt-2">
   <div class="call w-100 p-3 d-block">
     <h1>
-      <!-- <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/logo.png" /></a> -->
-      <!-- Dobbiamo stare a casa. <span class="h3 ">Ma la spesa?</span> -->
-      I negozi del tuo quartiere
+      La tua spesa, dai negozi del tuo quartiere
     </h1>
     <p>
-      <!-- Zizzu.it è un progetto aperto a tutti, Pubblica Amministrazione, Associazioni di categoria e privati cittadini.
+      In questo periodo di emergenza, alcuni Enti locali e Associazioni di categoria
+      raccolgono le adesioni degli esercizi commerciali che effettuano consegna a domicilio.
       <br>
-      Ognuno può fare la sua parte per rendere più facile possibile far scoprire ai cittadini i negozi di quartiere che effettuano consegne a domicilio.
-      <br> -->
-      In questo periodo di emergenza, alcuni Enti locali e Associazioni di categoria hanno messo su mappa i loro contributi, 
-      noi li aiutiamo, raccogliamo i dati e li portiamo ai cittadini in maniera facile e personalizzabile.
-      <br>
-      <br>
-      <a href='/mappa.html' type="button" class="float-right btn btn-primary">
-        Vai alla mappa
-      </a>
-
-<!--
-      <br>
-       Siamo programmatori, sappiamo solo lanciare le falangette sulla tastiera
-       e scrivere codice mentre altre categorie rischiano di più. -->
+      Noi li aiutiamo, raccogliamo i dati e li portiamo ai cittadini in maniera facile e personalizzabile.
     </p>
   </div>
 </div>
@@ -34,7 +20,7 @@ bodyClass: page-home
 
 
 
-<div class="container pt-2 d-none">
+<div class="container pt-2 ">
   <div class="call">
     <div class="call-box-top">
       <div class="call-phone"><strong>Facebook: </strong>
@@ -77,7 +63,7 @@ bodyClass: page-home
   </div>
 </div> -->
 
-<div class="container pt-2 pb-2 pt-md-4 pb-md-4">
+<div class="container pt-2 pb-2 pt-md-4 pb-md-4" id="partecipa">
   <div class="row justify-content-center">
     <!-- <div class="col-12">
       <h2 class="p-1 title-3 text-dark mb-4 text-center" style="background-color: #ffffffeb;">
@@ -94,7 +80,11 @@ bodyClass: page-home
         {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
         <div class="feature-content">{{ feature.description  | markdownify }}</div>
+        {% if feature.private %}
         <a href="https://forms.gle/2PHKwhzFAKVK1TPA7" target="_blank" type="button" class="mt-2 btn btn-outline-primary">{{ feature.CTA }} </a>
+        {% else %}
+        <a href="{{site.baseurl}}/il-kit" type="button" class="mt-2 btn btn-outline-primary">{{ feature.CTA }} </a>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
