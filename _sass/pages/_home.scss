@@ -21,16 +21,19 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    @include media-breakpoint-up(sm) {
+    // @include media-breakpoint-up(sm) {
       align-items: center;
       flex-direction: row;
-      width: 90%;
-    }
-    @include media-breakpoint-up(md) {
-      width: 70%;
-    }
+      // width: 90%;
+    // }
+    // @include media-breakpoint-up(md) {
+    //   width: 70%;
+    // }
     @include media-breakpoint-up(lg) {
       width: calc(48%);
+    }
+    @include media-breakpoint-up(md) {
+      margin-top: 0 !important;
     }
     .call-box-top {
       flex: 1 0 auto;
