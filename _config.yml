@@ -1,7 +1,7 @@
 # General Settings
 name: 'Zizzu.it'
 title: 'Zizzu.it'
-exclude: ['Gemfile.lock', 'Gemfile']
+exclude: ['_themeforest*', 'Gemfile.lock', 'Gemfile']
 
 
 job_title: consegne a domicilio dai negozi di zona
