@@ -14,13 +14,18 @@
 			.avatar { margin: 0 20px 0 0; display: inline-block;
 				img { width: 50px; height: 50px; }
 			}
+			.btn-mappa {
+				display:inline-block;
+				margin-left: auto;
+				margin-right: 46px;
+			}
 			.my-info { text-align: left;
 				.my-name { font-size: 18px; line-height: 26px; }
-				.my-job-title { font-size: 13px; }
+				.my-job-title { font-size: 13px; display:inline-block }
 			}
 		}
 		.mainmenu, .socials { margin: 20px 0; }
-		.about-me { font-size: 15px; line-height: 24px; margin: 20px 0 0; }
+		// .about-me { font-size: 15px; line-height: 24px; margin: 20px 0 0; }
 		.burger { display: block !important; position: fixed; top: 40px; right: 20px; z-index: 9999; }
 	}
 	.the-content { width: 100%; margin: 0; }
@@ -28,6 +33,22 @@
 }
 
 @include media-query($on-smaller-tablets) {
+	.user-profile.fixed .compact-header .btn-mappa {
+		display:block;
+		margin: 20px 25px;	
+		margin-left: auto;
+    	margin-right: 60px;
+	}
+
+	.user-profile.active .compact-header .btn-mappa {
+		display:inline-block;
+		margin: 0 auto;
+	}
+
+	.user-profile .compact-header .my-info .my-job-title {
+		display: none;
+	}
+
 	.the-content .post { padding: 20px 20px 120px;
 		.post-content {
 			.heading-marker { position: static; left: auto; top: auto; font-size: inherit; margin: 0 0 0 10px; @include transform-none(); }
@@ -39,6 +60,19 @@
 }
 
 @include media-query($on-phone) {
+	.user-profile:not(.active) .compact-header .btn-mappa {
+		display:none;
+	}
+
+	.user-profile.active .compact-header .btn-mappa {
+		display:block;
+		margin: 20px 25px;	
+	}
+
+	.user-profile .compact-header .my-info .my-job-title {
+		display: none;
+	}
+
 	.the-content .search > div .search-holder { width: 45%; }
 	.the-content .post .post-footer div.tags { position: static; text-align: left; border-top: 1px solid $grey-color-lightest; }
 }

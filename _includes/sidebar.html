@@ -2,7 +2,7 @@
     <div class="burger">
         <input class="trigger hidden" id="toggleBurger" type="checkbox" />
         <label for="toggleBurger">
-            <span>Navigation</span>
+            <span>Menu</span>
         </label>
     </div>
 
@@ -12,6 +12,7 @@
             <strong class="my-name">{{ site.name }}</strong>
             <span class="my-job-title">{{ site.job_title }}</span>
         </div>
+        <a class="btn-mappa" target="mappa-zizzu" href="https://mappa.zizzu.it">Vai alla mappa</a>
     </div>
 
     {% if site.show_menu == 1 %}
@@ -27,13 +28,14 @@
         {% endif %}
     {% endif %}
 
+    
     <p class="about-me">{{ site.description }}</p>
 
     <ul class="socials">
-        {% for social in site.social_networks %}{% if social.url != '' %}<li><a href="{{social.url}}"><svg title="{{social.name}}" width="16" height="16" {% if social.name == 'applemusic' %} style="margin: 0 0 0 -2px" {% endif %}><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#{{social.name}}-icon"></use></svg></a></li>{% endif %}{% endfor %}
+        {% for social in site.social_networks %}{% if social.url != '' %}<li><a target="_blank" href="{{social.url}}"><svg title="{{social.name}}" width="16" height="16" {% if social.name == 'applemusic' %} style="margin: 0 0 0 -2px" {% endif %}><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#{{social.name}}-icon"></use></svg></a></li>{% endif %}{% endfor %}
 
         {% if site.email != blank and site.show_email == 1 %}
-            <li><a href="mailto:{{site.email}}"><svg title="{{social.name}}" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
+            <li><a  target="_blank" href="mailto:{{site.email}}"><svg title="{{social.name}}" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
         {% endif %}
 
         {% if site.show_rss == 1 %}

@@ -3,6 +3,53 @@
 
 @import "vars", "reset", "mixins";
 
+.btn-mappa {
+	margin: 20px 25px;
+    display: inline-block;
+    background: #19bc9c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+// aside.active .btn-mappa, aside.fixed .btn-mappa  {
+// 	display: inline-block
+// }
+
+// tablet
+    // margin-left: auto;
+    // margin-right: 46px;
+
+.footer-firma {
+	display:flex;
+	position: fixed;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #e5e5e5;
+	bottom:0;
+	left:0;
+	right:0;
+	height: 30px;
+	padding: 0 10px;
+	.firma-1{
+		img {
+			width:25px;
+			display: inline-block;
+			vertical-align: text-bottom;
+		}
+	}
+
+	.firma-2 {
+		a {
+			margin-top: 10px;
+			display: block;
+			height: 30px;
+			cursor: pointer
+
+		}
+	}
+}
+
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
 
 .user-profile { position: absolute; top: 60px; width: 100%; max-width: 300px; text-align: center; @include transition(right .3s ease-in-out);
@@ -14,7 +61,7 @@
 		}
 		.my-info {
 			.my-name { display: block; font-size: 24px; font-weight: 700; line-height: 30px; color: $grey-color-dark; }
-			.my-job-title { font-size: 14px; font-weight: 300; margin: 5px 0 0; }
+			.my-job-title { font-size: 14px; font-weight: 300; margin: 5px 0 0; display:inline-block }
 		}
 	}
 	.mainmenu { margin: 40px 0; text-align: center;
@@ -23,7 +70,7 @@
 			&:first-of-type { border-top: 1px solid $grey-color-lightest; }
 		}
 	}
-	.about-me { font-size: 16px; line-height: 26px; margin: 30px 0 0; }
+	.about-me { font-size: 12px; line-height: 20px; margin: 10px 0 0; font-style: italic;}
 	.socials { @include flexbox(); @include justify-content(); margin: 25px 0 0;
 		li { margin: 5px;
 			a { @include flexbox(); @include align-items(); @include justify-content(); width: 40px; height: 40px; background: darken($grey-color-lightest, 6%); border-radius: 50%; @include transition(all .1s ease);

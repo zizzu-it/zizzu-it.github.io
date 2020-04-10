@@ -7,11 +7,27 @@
             {% include sidebar.html %}
 
             <main class="the-content" role="main">
-                {% include search.html %}
+                <!-- {% include search.html %} -->
+                <!-- <img src="/assets/images/banner-email.png"> -->
                 {{ content }}
             </main>
         </div>
-
-        {% include scripts.html %}
     </body>
+    <div class="footer-firma">
+        <div class="firma-1">
+            Made with ♥ in Turin by
+            <a href="http://www.pasella.it/" target="zizzu-pasella">
+              <img src="/assets/images/io.png">
+            </a>
+        </div>
+        <div class="firma-2">
+            <a onclick="alert('COMING SOON...')">
+              © credits
+            </a>
+        </div>
+    </div>
+
+
+
+      {% include scripts.html %}
 </html>
