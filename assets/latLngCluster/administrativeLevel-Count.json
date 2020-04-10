@@ -1,0 +1,818 @@
+{
+  "count": 0,
+  "regioni": {
+    "Lombardia": {
+      "count": 766,
+      "province": {
+        "Città Metropolitana di Milano": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.458626,
+              "lng": 9.181873
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.6426684,
+                "lng": 9.5515786
+              },
+              "southwest": {
+                "lat": 45.161534,
+                "lng": 8.7061099
+              }
+            }
+          }
+        },
+        "Provincia di Brescia": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.6596772,
+              "lng": 10.3856716
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 46.3547865,
+                "lng": 10.8401893
+              },
+              "southwest": {
+                "lat": 45.2039275,
+                "lng": 9.836036
+              }
+            }
+          }
+        },
+        "Provincia di Monza e della Brianza": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.623599,
+              "lng": 9.258801499999999
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.7427334,
+                "lng": 9.4966723
+              },
+              "southwest": {
+                "lat": 45.536646,
+                "lng": 9.0505239
+              }
+            }
+          }
+        },
+        "Provincia di Lecco": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.9382941,
+              "lng": 9.385729
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 46.15740359999999,
+                "lng": 9.540968999999999
+              },
+              "southwest": {
+                "lat": 45.6496009,
+                "lng": 9.243320299999999
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 45.47906709999999,
+          "lng": 9.8452433
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.6351853,
+            "lng": 11.4276993
+          },
+          "southwest": {
+            "lat": 44.6796491,
+            "lng": 8.4978605
+          }
+        }
+      }
+    },
+    "Toscana": {
+      "count": 234,
+      "province": {
+        "Provincia di Siena": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 43.2937732,
+              "lng": 11.4339148
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 43.5484855,
+                "lng": 11.9824292
+              },
+              "southwest": {
+                "lat": 42.7857397,
+                "lng": 10.9083468
+              }
+            }
+          }
+        },
+        "Città Metropolitana di Firenze": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 43.7679178,
+              "lng": 11.2523792
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.239233,
+                "lng": 11.7529629
+              },
+              "southwest": {
+                "lat": 43.4522844,
+                "lng": 10.7111173
+              }
+            }
+          }
+        },
+        "Provincia di Prato": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.04539,
+              "lng": 11.1164452
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.1124063,
+                "lng": 11.2128325
+              },
+              "southwest": {
+                "lat": 43.75838299999999,
+                "lng": 10.9641367
+              }
+            }
+          }
+        },
+        "Provincia di Pisa": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 43.7228315,
+              "lng": 10.4017194
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 43.8349461,
+                "lng": 11.0133512
+              },
+              "southwest": {
+                "lat": 43.1085285,
+                "lng": 10.2584664
+              }
+            }
+          }
+        },
+        "Provincia di Massa e Carrara": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.2213998,
+              "lng": 10.0359661
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.4726899,
+                "lng": 10.255591
+              },
+              "southwest": {
+                "lat": 43.9754263,
+                "lng": 9.6867213
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 43.7710513,
+          "lng": 11.2486208
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.4726899,
+            "lng": 12.3713555
+          },
+          "southwest": {
+            "lat": 42.2376686,
+            "lng": 9.6867213
+          }
+        }
+      }
+    },
+    "Umbria": {
+      "count": 71,
+      "province": {
+        "Provincia di Perugia": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 42.938004,
+              "lng": 12.6216211
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 43.6173483,
+                "lng": 13.2642059
+              },
+              "southwest": {
+                "lat": 42.5968166,
+                "lng": 11.9123505
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 42.938004,
+          "lng": 12.6216211
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.61734610000001,
+            "lng": 13.2641691
+          },
+          "southwest": {
+            "lat": 42.3644512,
+            "lng": 11.8918927
+          }
+        }
+      }
+    },
+    "Piemonte": {
+      "count": 2026,
+      "province": {
+        "Città Metropolitana di Torino": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.063299,
+              "lng": 7.669289
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.6023132,
+                "lng": 8.1518579
+              },
+              "southwest": {
+                "lat": 44.713731,
+                "lng": 6.6266304
+              }
+            }
+          }
+        },
+        "Provincia di Cuneo": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.5970314,
+              "lng": 7.6114217
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.8565911,
+                "lng": 8.2687425
+              },
+              "southwest": {
+                "lat": 44.0600899,
+                "lng": 6.8534305
+              }
+            }
+          }
+        },
+        "Provincia di Alessandria": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.8175587,
+              "lng": 8.7046627
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.2054523,
+                "lng": 9.2142577
+              },
+              "southwest": {
+                "lat": 44.4649139,
+                "lng": 8.1093394
+              }
+            }
+          }
+        },
+        "Provincia di Novara": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.5485133,
+              "lng": 8.5150793
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.8767872,
+                "lng": 8.842910900000001
+              },
+              "southwest": {
+                "lat": 45.2916032,
+                "lng": 8.3105802
+              }
+            }
+          }
+        },
+        "Provincia di Asti": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.9007652,
+              "lng": 8.206431499999999
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.13299,
+                "lng": 8.513630599999999
+              },
+              "southwest": {
+                "lat": 44.5189513,
+                "lng": 7.8834468
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 45.0522366,
+          "lng": 7.5153885
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.4644351,
+            "lng": 9.2142641
+          },
+          "southwest": {
+            "lat": 44.0600899,
+            "lng": 6.6266304
+          }
+        }
+      }
+    },
+    "Friuli-Venezia Giulia": {
+      "count": 1,
+      "province": {
+        "Provincia di Udine": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 46.14079719999999,
+              "lng": 13.1662896
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 46.6478092,
+                "lng": 13.71733
+              },
+              "southwest": {
+                "lat": 45.643294,
+                "lng": 12.4924767
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 46.2259177,
+          "lng": 13.1033646
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.6478092,
+            "lng": 13.9188525
+          },
+          "southwest": {
+            "lat": 45.5809283,
+            "lng": 12.3209406
+          }
+        }
+      }
+    },
+    "Valle d'Aosta": {
+      "count": 1,
+      "province": {
+        "Valle d'Aosta": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.7388878,
+              "lng": 7.426186599999999
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.9877599,
+                "lng": 7.9395262
+              },
+              "southwest": {
+                "lat": 45.4669449,
+                "lng": 6.8013502
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 45.7388878,
+          "lng": 7.426186599999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.9877599,
+            "lng": 7.9395262
+          },
+          "southwest": {
+            "lat": 45.4669449,
+            "lng": 6.8013502
+          }
+        }
+      }
+    },
+    "Emilia-Romagna": {
+      "count": 8,
+      "province": {
+        "Città Metropolitana di Bologna": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.50051010000001,
+              "lng": 11.3047836
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.80474479999999,
+                "lng": 11.8420608
+              },
+              "southwest": {
+                "lat": 44.0622307,
+                "lng": 10.8037083
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 44.5967607,
+          "lng": 11.2186396
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.1391189,
+            "lng": 12.7556401
+          },
+          "southwest": {
+            "lat": 43.7318908,
+            "lng": 9.197932999999999
+          }
+        }
+      }
+    },
+    "Liguria": {
+      "count": 213,
+      "province": {
+        "Provincia della Spezia": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.2447913,
+              "lng": 9.7678687
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.4398049,
+                "lng": 10.0710317
+              },
+              "southwest": {
+                "lat": 44.0233322,
+                "lng": 9.4657571
+              }
+            }
+          }
+        },
+        "Città Metropolitana di Genova": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.4056493,
+              "lng": 8.9462564
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.6764264,
+                "lng": 9.574866499999999
+              },
+              "southwest": {
+                "lat": 44.2166433,
+                "lng": 8.5715706
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 44.3167917,
+          "lng": 8.3964938
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.6764264,
+            "lng": 10.0710317
+          },
+          "southwest": {
+            "lat": 43.7596721,
+            "lng": 7.4948099
+          }
+        }
+      }
+    },
+    "Marche": {
+      "count": 1,
+      "province": {
+        "Provincia di Ascoli Piceno": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 42.86389330000001,
+              "lng": 13.5899733
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 43.0797794,
+                "lng": 13.9167199
+              },
+              "southwest": {
+                "lat": 42.687158,
+                "lng": 13.1875328
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 43.5058744,
+          "lng": 12.989615
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.9698937,
+            "lng": 13.9163709
+          },
+          "southwest": {
+            "lat": 42.687158,
+            "lng": 12.1854509
+          }
+        }
+      }
+    },
+    "Lazio": {
+      "count": 185,
+      "province": {
+        "Città Metropolitana di Roma": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 41.9027008,
+              "lng": 12.4962352
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 42.2960412,
+                "lng": 13.2962754
+              },
+              "southwest": {
+                "lat": 41.407571,
+                "lng": 11.7335442
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 41.6552418,
+          "lng": 12.989615
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.8387207,
+            "lng": 14.0276424
+          },
+          "southwest": {
+            "lat": 40.7847377,
+            "lng": 11.4493842
+          }
+        }
+      }
+    },
+    "Sicilia": {
+      "count": 2,
+      "province": {
+        "Provincia di Palermo": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 38.1156921,
+              "lng": 13.3614855
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 38.7208694,
+                "lng": 14.2948133
+              },
+              "southwest": {
+                "lat": 37.539287,
+                "lng": 12.9287414
+              }
+            }
+          }
+        },
+        "Provincia di Siracusa": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 37.07543709999999,
+              "lng": 15.2865933
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 37.4127629,
+                "lng": 15.3366037
+              },
+              "southwest": {
+                "lat": 36.6441488,
+                "lng": 14.7728221
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 37.5999938,
+          "lng": 14.0153557
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.8121854,
+            "lng": 15.6527947
+          },
+          "southwest": {
+            "lat": 35.4915492,
+            "lng": 11.9253334
+          }
+        }
+      }
+    },
+    "Veneto": {
+      "count": 46,
+      "province": {
+        "Provincia di Vicenza": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.6983995,
+              "lng": 11.5661465
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 46.0133136,
+                "lng": 11.8361814
+              },
+              "southwest": {
+                "lat": 45.2553201,
+                "lng": 11.1358708
+              }
+            }
+          }
+        },
+        "Provincia di Padova": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.3661864,
+              "lng": 11.8209139
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.6871678,
+                "lng": 12.2062127
+              },
+              "southwest": {
+                "lat": 45.0953753,
+                "lng": 11.3907276
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 45.4414662,
+          "lng": 12.3152595
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.6804752,
+            "lng": 13.1009766
+          },
+          "southwest": {
+            "lat": 44.791218,
+            "lng": 10.6229634
+          }
+        }
+      }
+    },
+    "Sardegna": {
+      "count": 49,
+      "province": {
+        "Città Metropolitana di Cagliari": {
+          "count": 1,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 39.2237632,
+              "lng": 9.1218671
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 39.42343779999999,
+                "lng": 9.4863936
+              },
+              "southwest": {
+                "lat": 38.9155594,
+                "lng": 8.7000031
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 40.1208752,
+          "lng": 9.012892599999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.2591965,
+            "lng": 9.827037599999999
+          },
+          "southwest": {
+            "lat": 38.86404900000001,
+            "lng": 8.1308048
+          }
+        }
+      }
+    }
+  }
+}

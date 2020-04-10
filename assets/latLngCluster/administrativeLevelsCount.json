@@ -1,0 +1,65 @@
+{
+  "Lombardia": {
+    "count": 728,
+    "location": {
+      "lat": 45.4627123,
+      "lng": 9.1075212
+    }
+  },
+  "Piemonte": {
+    "count": 1987,
+    "location": {
+      "lat": 45.0734672,
+      "lng": 7.6053955
+    }
+  },
+  "Toscana": {
+    "count": 204,
+    "location": {
+      "lat": 43.7799528,
+      "lng": 11.2058628
+    }
+  },
+  "Emilia-Romagna": {
+    "count": 97,
+    "location": {
+      "lat": 44.4991128,
+      "lng": 11.2965804
+    }
+  },
+  "Liguria": {
+    "count": 206,
+    "location": {
+      "lat": 44.4469562,
+      "lng": 8.8206211
+    }
+  },
+  "Lazio": {
+    "count": 205,
+    "location": {
+      "lat": 41.9099856,
+      "lng": 12.3955725
+    }
+  },
+  "Umbria": {
+    "count": 70,
+    "location": {
+      "lat": 43.095013,
+      "lng": 12.345219
+    }
+  },
+  "Sardegna": {
+    "count": 53,
+    "location": {
+      "lat": 40.1379836,
+      "lng": 8.3280228
+    }
+  },
+  "Veneto": {
+    "count": 10,
+    "location": {
+      "lat": 45.3577827,
+      "lng": 11.4998211
+    }
+  }
+}
