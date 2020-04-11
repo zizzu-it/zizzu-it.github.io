@@ -61,7 +61,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "https://www.zizzu.it/"
+url: "https://www.zizzu.it"
 baseurl: ""
 
 # Includes
