@@ -1,11 +1,11 @@
 {
-  "count": 3709,
+  "count": 5725,
   "regioni": {
     "Lombardia": {
-      "count": 874,
+      "count": 1623,
       "province": {
         "Città Metropolitana di Milano": {
-          "count": 775,
+          "count": 796,
           "comuni": {},
           "geometry": {
             "location": {
@@ -20,6 +20,26 @@
               "southwest": {
                 "lat": 45.161534,
                 "lng": 8.7061099
+              }
+            }
+          }
+        },
+        "Provincia di Brescia": {
+          "count": 733,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.6596772,
+              "lng": 10.3856716
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 46.3547865,
+                "lng": 10.8401893
+              },
+              "southwest": {
+                "lat": 45.2039275,
+                "lng": 9.836036
               }
             }
           }
@@ -62,11 +82,113 @@
         }
       }
     },
-    "Toscana": {
-      "count": 231,
+    "Sicilia": {
+      "count": 309,
       "province": {
+        "Provincia di Messina": {
+          "count": 303,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 38.1937369,
+              "lng": 15.5542157
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 38.8121854,
+                "lng": 15.6527947
+              },
+              "southwest": {
+                "lat": 37.7954019,
+                "lng": 14.1833206
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 37.5999938,
+          "lng": 14.0153557
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.8121854,
+            "lng": 15.6527947
+          },
+          "southwest": {
+            "lat": 35.4915492,
+            "lng": 11.9253334
+          }
+        }
+      }
+    },
+    "Trentino-Alto Adige": {
+      "count": 869,
+      "province": {
+        "Trentino": {
+          "count": 863,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 46.4336662,
+              "lng": 11.1693296
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 47.0917942,
+                "lng": 12.4775863
+              },
+              "southwest": {
+                "lat": 45.6730636,
+                "lng": 10.3817891
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 46.4336662,
+          "lng": 11.1693296
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.0917942,
+            "lng": 12.4775863
+          },
+          "southwest": {
+            "lat": 45.6730636,
+            "lng": 10.3817891
+          }
+        }
+      }
+    },
+    "Toscana": {
+      "count": 324,
+      "province": {
+        "Provincia di Lucca": {
+          "count": 92,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 43.8376736,
+              "lng": 10.495053
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.2859534,
+                "lng": 10.7378159
+              },
+              "southwest": {
+                "lat": 43.749128,
+                "lng": 10.1440425
+              }
+            }
+          }
+        },
         "Provincia di Siena": {
-          "count": 45,
+          "count": 46,
           "comuni": {},
           "geometry": {
             "location": {
@@ -143,6 +265,129 @@
         }
       }
     },
+    "Veneto": {
+      "count": 37,
+      "province": {
+        "Provincia di Padova": {
+          "count": 28,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 45.3661864,
+              "lng": 11.8209139
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 45.6871678,
+                "lng": 12.2062127
+              },
+              "southwest": {
+                "lat": 45.0953753,
+                "lng": 11.3907276
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 45.4414662,
+          "lng": 12.3152595
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.6804752,
+            "lng": 13.1009766
+          },
+          "southwest": {
+            "lat": 44.791218,
+            "lng": 10.6229634
+          }
+        }
+      }
+    },
+    "Lazio": {
+      "count": 189,
+      "province": {
+        "Città Metropolitana di Roma": {
+          "count": 188,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 41.9027008,
+              "lng": 12.4962352
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 42.2960412,
+                "lng": 13.2962754
+              },
+              "southwest": {
+                "lat": 41.407571,
+                "lng": 11.7335442
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 41.6552418,
+          "lng": 12.989615
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.8387207,
+            "lng": 14.0276424
+          },
+          "southwest": {
+            "lat": 40.7847377,
+            "lng": 11.4493842
+          }
+        }
+      }
+    },
+    "Emilia-Romagna": {
+      "count": 82,
+      "province": {
+        "Città Metropolitana di Bologna": {
+          "count": 79,
+          "comuni": {},
+          "geometry": {
+            "location": {
+              "lat": 44.50051010000001,
+              "lng": 11.3047836
+            },
+            "viewport": {
+              "northeast": {
+                "lat": 44.80474479999999,
+                "lng": 11.8420608
+              },
+              "southwest": {
+                "lat": 44.0622307,
+                "lng": 10.8037083
+              }
+            }
+          }
+        }
+      },
+      "geometry": {
+        "location": {
+          "lat": 44.5967607,
+          "lng": 11.2186396
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.1391189,
+            "lng": 12.7556401
+          },
+          "southwest": {
+            "lat": 43.7318908,
+            "lng": 9.197932999999999
+          }
+        }
+      }
+    },
     "Umbria": {
       "count": 72,
       "province": {
@@ -185,10 +430,10 @@
       }
     },
     "Piemonte": {
-      "count": 2027,
+      "count": 2016,
       "province": {
         "Città Metropolitana di Torino": {
-          "count": 1790,
+          "count": 1806,
           "comuni": {},
           "geometry": {
             "location": {
@@ -208,7 +453,7 @@
           }
         },
         "Provincia di Cuneo": {
-          "count": 110,
+          "count": 83,
           "comuni": {},
           "geometry": {
             "location": {
@@ -265,88 +510,6 @@
         }
       }
     },
-    "Emilia-Romagna": {
-      "count": 81,
-      "province": {
-        "Città Metropolitana di Bologna": {
-          "count": 79,
-          "comuni": {},
-          "geometry": {
-            "location": {
-              "lat": 44.50051010000001,
-              "lng": 11.3047836
-            },
-            "viewport": {
-              "northeast": {
-                "lat": 44.80474479999999,
-                "lng": 11.8420608
-              },
-              "southwest": {
-                "lat": 44.0622307,
-                "lng": 10.8037083
-              }
-            }
-          }
-        }
-      },
-      "geometry": {
-        "location": {
-          "lat": 44.5967607,
-          "lng": 11.2186396
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 45.1391189,
-            "lng": 12.7556401
-          },
-          "southwest": {
-            "lat": 43.7318908,
-            "lng": 9.197932999999999
-          }
-        }
-      }
-    },
-    "Veneto": {
-      "count": 33,
-      "province": {
-        "Provincia di Padova": {
-          "count": 28,
-          "comuni": {},
-          "geometry": {
-            "location": {
-              "lat": 45.3661864,
-              "lng": 11.8209139
-            },
-            "viewport": {
-              "northeast": {
-                "lat": 45.6871678,
-                "lng": 12.2062127
-              },
-              "southwest": {
-                "lat": 45.0953753,
-                "lng": 11.3907276
-              }
-            }
-          }
-        }
-      },
-      "geometry": {
-        "location": {
-          "lat": 45.4414662,
-          "lng": 12.3152595
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 46.6804752,
-            "lng": 13.1009766
-          },
-          "southwest": {
-            "lat": 44.791218,
-            "lng": 10.6229634
-          }
-        }
-      }
-    },
     "Liguria": {
       "count": 145,
       "province": {
@@ -384,47 +547,6 @@
           "southwest": {
             "lat": 43.7596721,
             "lng": 7.4948099
-          }
-        }
-      }
-    },
-    "Lazio": {
-      "count": 188,
-      "province": {
-        "Città Metropolitana di Roma": {
-          "count": 187,
-          "comuni": {},
-          "geometry": {
-            "location": {
-              "lat": 41.9027008,
-              "lng": 12.4962352
-            },
-            "viewport": {
-              "northeast": {
-                "lat": 42.2960412,
-                "lng": 13.2962754
-              },
-              "southwest": {
-                "lat": 41.407571,
-                "lng": 11.7335442
-              }
-            }
-          }
-        }
-      },
-      "geometry": {
-        "location": {
-          "lat": 41.6552418,
-          "lng": 12.989615
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.8387207,
-            "lng": 14.0276424
-          },
-          "southwest": {
-            "lat": 40.7847377,
-            "lng": 11.4493842
           }
         }
       }
