@@ -1,98 +1,98 @@
 {
   "grocery_or_supermarket": {
-    "count": 292,
+    "count": 331,
     "label": ""
   },
   "food": {
-    "count": 918,
+    "count": 1046,
     "label": ""
   },
   "bar": {
-    "count": 170,
+    "count": 215,
     "label": ""
   },
   "restaurant": {
-    "count": 413,
+    "count": 531,
     "label": ""
   },
   "point_of_interest": {
-    "count": 950,
+    "count": 1043,
     "label": ""
   },
   "supermarket": {
-    "count": 309,
+    "count": 350,
     "label": ""
   },
   "bakery": {
-    "count": 346,
+    "count": 406,
     "label": ""
   },
   "street_address": {
-    "count": 210,
+    "count": 262,
     "label": ""
   },
   "meal_takeaway": {
-    "count": 66,
+    "count": 79,
     "label": ""
   },
   "liquor_store": {
-    "count": 83,
+    "count": 96,
     "label": ""
   },
   "health": {
-    "count": 87,
+    "count": 96,
     "label": ""
   },
   "store": {
-    "count": 49,
+    "count": 54,
     "label": ""
   },
   "meal_delivery": {
-    "count": 57,
+    "count": 66,
     "label": ""
   },
   "cafe": {
-    "count": 59,
+    "count": 75,
     "label": ""
   },
   "book_store": {
-    "count": 73,
+    "count": 84,
     "label": ""
   },
   "route": {
-    "count": 68,
+    "count": 72,
     "label": ""
   },
   "pharmacy": {
-    "count": 127,
+    "count": 145,
     "label": ""
   },
   "florist": {
-    "count": 64,
+    "count": 82,
     "label": ""
   },
   "home_goods_store": {
-    "count": 57,
+    "count": 69,
     "label": ""
   },
   "electronics_store": {
-    "count": 34,
+    "count": 42,
     "label": ""
   },
   "hardware_store": {
-    "count": 29,
+    "count": 35,
     "label": ""
   },
   "lodging": {
-    "count": 221,
+    "count": 234,
     "label": ""
   },
   "premise": {
-    "count": 17,
+    "count": 20,
     "label": ""
   },
   "pet_store": {
-    "count": 23,
+    "count": 28,
     "label": ""
   },
   "school": {
@@ -108,23 +108,23 @@
     "label": ""
   },
   "laundry": {
-    "count": 23,
+    "count": 28,
     "label": ""
   },
   "electrician": {
-    "count": 3,
+    "count": 4,
     "label": ""
   },
   "tourist_attraction": {
-    "count": 32,
+    "count": 36,
     "label": ""
   },
   "night_club": {
-    "count": 3,
+    "count": 4,
     "label": ""
   },
   "drugstore": {
-    "count": 12,
+    "count": 15,
     "label": ""
   },
   "travel_agency": {
@@ -132,11 +132,11 @@
     "label": ""
   },
   "shoe_store": {
-    "count": 26,
+    "count": 27,
     "label": ""
   },
   "insurance_agency": {
-    "count": 4,
+    "count": 5,
     "label": ""
   },
   "campground": {
@@ -152,7 +152,7 @@
     "label": ""
   },
   "general_contractor": {
-    "count": 25,
+    "count": 28,
     "label": ""
   },
   "locality": {
@@ -160,7 +160,7 @@
     "label": ""
   },
   "spa": {
-    "count": 5,
+    "count": 6,
     "label": ""
   },
   "real_estate_agency": {
@@ -180,7 +180,7 @@
     "label": ""
   },
   "furniture_store": {
-    "count": 15,
+    "count": 16,
     "label": ""
   },
   "church": {
@@ -200,15 +200,15 @@
     "label": ""
   },
   "car_repair": {
-    "count": 15,
+    "count": 16,
     "label": ""
   },
   "plumber": {
-    "count": 2,
+    "count": 3,
     "label": ""
   },
   "convenience_store": {
-    "count": 9,
+    "count": 13,
     "label": ""
   },
   "park": {
@@ -216,31 +216,31 @@
     "label": ""
   },
   "veterinary_care": {
-    "count": 1,
+    "count": 2,
     "label": ""
   },
   "beauty_salon": {
-    "count": 10,
+    "count": 14,
     "label": ""
   },
   "painter": {
-    "count": 1,
+    "count": 2,
     "label": ""
   },
   "clothing_store": {
-    "count": 16,
+    "count": 19,
     "label": ""
   },
   "zoo": {
-    "count": 0,
+    "count": 1,
     "label": ""
   },
   "hair_care": {
-    "count": 7,
+    "count": 10,
     "label": ""
   },
   "rv_park": {
-    "count": 0,
+    "count": 1,
     "label": ""
   },
   "gas_station": {
@@ -264,7 +264,7 @@
     "label": ""
   },
   "jewelry_store": {
-    "count": 10,
+    "count": 11,
     "label": ""
   },
   "administrative_area_level_2": {
@@ -280,7 +280,7 @@
     "label": ""
   },
   "bicycle_store": {
-    "count": 5,
+    "count": 6,
     "label": ""
   },
   "locksmith": {
