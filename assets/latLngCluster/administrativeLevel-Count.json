@@ -1,11 +1,11 @@
 {
-  "count": 8024,
+  "count": 9141,
   "regioni": {
     "Lombardia": {
-      "count": 2168,
+      "count": 3191,
       "province": {
         "Città Metropolitana di Milano": {
-          "count": 762,
+          "count": 795,
           "comuni": {},
           "geometry": {
             "location": {
@@ -25,7 +25,7 @@
           }
         },
         "Provincia di Brescia": {
-          "count": 772,
+          "count": 798,
           "comuni": {},
           "geometry": {
             "location": {
@@ -85,7 +85,7 @@
           }
         },
         "Provincia di Bergamo": {
-          "count": 560,
+          "count": 1524,
           "comuni": {},
           "geometry": {
             "location": {
@@ -164,10 +164,10 @@
       }
     },
     "Basilicata": {
-      "count": 30,
+      "count": 31,
       "province": {
         "Provincia di Potenza": {
-          "count": 26,
+          "count": 27,
           "comuni": {},
           "geometry": {
             "location": {
@@ -347,10 +347,10 @@
       }
     },
     "Emilia-Romagna": {
-      "count": 188,
+      "count": 189,
       "province": {
         "Città Metropolitana di Bologna": {
-          "count": 53,
+          "count": 54,
           "comuni": {},
           "geometry": {
             "location": {
@@ -589,10 +589,10 @@
       }
     },
     "Lazio": {
-      "count": 517,
+      "count": 528,
       "province": {
         "Città Metropolitana di Roma": {
-          "count": 497,
+          "count": 508,
           "comuni": {},
           "geometry": {
             "location": {
@@ -751,10 +751,10 @@
       }
     },
     "Veneto": {
-      "count": 296,
+      "count": 275,
       "province": {
         "Provincia di Verona": {
-          "count": 26,
+          "count": 27,
           "comuni": {},
           "geometry": {
             "location": {
@@ -854,7 +854,7 @@
           }
         },
         "Provincia di Vicenza": {
-          "count": 47,
+          "count": 25,
           "comuni": {},
           "geometry": {
             "location": {
@@ -994,10 +994,10 @@
       }
     },
     "Piemonte": {
-      "count": 2010,
+      "count": 2061,
       "province": {
         "Provincia di Alessandria": {
-          "count": 78,
+          "count": 81,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1077,7 +1077,7 @@
           }
         },
         "Provincia di Cuneo": {
-          "count": 397,
+          "count": 410,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1117,7 +1117,7 @@
           }
         },
         "Città Metropolitana di Torino": {
-          "count": 1409,
+          "count": 1444,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1317,10 +1317,10 @@
       }
     },
     "Sicilia": {
-      "count": 369,
+      "count": 371,
       "province": {
         "Provincia di Catania": {
-          "count": 21,
+          "count": 22,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1398,10 +1398,10 @@
       }
     },
     "Toscana": {
-      "count": 799,
+      "count": 821,
       "province": {
         "Città Metropolitana di Firenze": {
-          "count": 429,
+          "count": 436,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1461,7 +1461,7 @@
           }
         },
         "Provincia di Lucca": {
-          "count": 115,
+          "count": 123,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1481,7 +1481,7 @@
           }
         },
         "Provincia di Massa e Carrara": {
-          "count": 71,
+          "count": 74,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1501,7 +1501,7 @@
           }
         },
         "Provincia di Siena": {
-          "count": 116,
+          "count": 121,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1539,10 +1539,10 @@
       }
     },
     "Trentino-Alto Adige": {
-      "count": 953,
+      "count": 973,
       "province": {
         "Trentino": {
-          "count": 947,
+          "count": 967,
           "comuni": {},
           "geometry": {
             "location": {
@@ -1580,10 +1580,10 @@
       }
     },
     "Umbria": {
-      "count": 123,
+      "count": 130,
       "province": {
         "Provincia di Perugia": {
-          "count": 113,
+          "count": 120,
           "comuni": {},
           "geometry": {
             "location": {

@@ -1,98 +1,98 @@
 {
   "grocery_or_supermarket": {
-    "count": 331,
+    "count": 475,
     "label": ""
   },
   "food": {
-    "count": 1046,
+    "count": 1369,
     "label": ""
   },
   "bar": {
-    "count": 215,
+    "count": 303,
     "label": ""
   },
   "restaurant": {
-    "count": 531,
+    "count": 780,
     "label": ""
   },
   "point_of_interest": {
-    "count": 1043,
+    "count": 1312,
     "label": ""
   },
   "supermarket": {
-    "count": 350,
+    "count": 474,
     "label": ""
   },
   "bakery": {
-    "count": 406,
+    "count": 601,
     "label": ""
   },
   "street_address": {
-    "count": 262,
+    "count": 364,
     "label": ""
   },
   "meal_takeaway": {
-    "count": 79,
+    "count": 114,
     "label": ""
   },
   "liquor_store": {
-    "count": 96,
+    "count": 120,
     "label": ""
   },
   "health": {
-    "count": 96,
+    "count": 141,
     "label": ""
   },
   "store": {
-    "count": 54,
+    "count": 67,
     "label": ""
   },
   "meal_delivery": {
-    "count": 66,
+    "count": 115,
     "label": ""
   },
   "cafe": {
-    "count": 75,
+    "count": 113,
     "label": ""
   },
   "book_store": {
-    "count": 84,
+    "count": 111,
     "label": ""
   },
   "route": {
-    "count": 72,
+    "count": 80,
     "label": ""
   },
   "pharmacy": {
-    "count": 145,
+    "count": 236,
     "label": ""
   },
   "florist": {
-    "count": 82,
+    "count": 133,
     "label": ""
   },
   "home_goods_store": {
-    "count": 69,
+    "count": 107,
     "label": ""
   },
   "electronics_store": {
-    "count": 42,
+    "count": 60,
     "label": ""
   },
   "hardware_store": {
-    "count": 35,
+    "count": 51,
     "label": ""
   },
   "lodging": {
-    "count": 234,
+    "count": 258,
     "label": ""
   },
   "premise": {
-    "count": 20,
+    "count": 24,
     "label": ""
   },
   "pet_store": {
-    "count": 28,
+    "count": 35,
     "label": ""
   },
   "school": {
@@ -104,39 +104,39 @@
     "label": ""
   },
   "doctor": {
-    "count": 2,
+    "count": 4,
     "label": ""
   },
   "laundry": {
-    "count": 28,
+    "count": 46,
     "label": ""
   },
   "electrician": {
-    "count": 4,
+    "count": 5,
     "label": ""
   },
   "tourist_attraction": {
-    "count": 36,
+    "count": 40,
     "label": ""
   },
   "night_club": {
-    "count": 4,
+    "count": 8,
     "label": ""
   },
   "drugstore": {
-    "count": 15,
+    "count": 21,
     "label": ""
   },
   "travel_agency": {
-    "count": 3,
+    "count": 4,
     "label": ""
   },
   "shoe_store": {
-    "count": 27,
+    "count": 45,
     "label": ""
   },
   "insurance_agency": {
-    "count": 5,
+    "count": 6,
     "label": ""
   },
   "campground": {
@@ -144,7 +144,7 @@
     "label": ""
   },
   "city_hall": {
-    "count": 15,
+    "count": 21,
     "label": ""
   },
   "storage": {
@@ -152,7 +152,7 @@
     "label": ""
   },
   "general_contractor": {
-    "count": 28,
+    "count": 39,
     "label": ""
   },
   "locality": {
@@ -176,11 +176,11 @@
     "label": ""
   },
   "shopping_mall": {
-    "count": 9,
+    "count": 11,
     "label": ""
   },
   "furniture_store": {
-    "count": 16,
+    "count": 33,
     "label": ""
   },
   "church": {
@@ -196,11 +196,11 @@
     "label": ""
   },
   "post_office": {
-    "count": 5,
+    "count": 8,
     "label": ""
   },
   "car_repair": {
-    "count": 16,
+    "count": 29,
     "label": ""
   },
   "plumber": {
@@ -208,11 +208,11 @@
     "label": ""
   },
   "convenience_store": {
-    "count": 13,
+    "count": 17,
     "label": ""
   },
   "park": {
-    "count": 2,
+    "count": 3,
     "label": ""
   },
   "veterinary_care": {
@@ -220,7 +220,7 @@
     "label": ""
   },
   "beauty_salon": {
-    "count": 14,
+    "count": 20,
     "label": ""
   },
   "painter": {
@@ -228,7 +228,7 @@
     "label": ""
   },
   "clothing_store": {
-    "count": 19,
+    "count": 37,
     "label": ""
   },
   "zoo": {
@@ -236,7 +236,7 @@
     "label": ""
   },
   "hair_care": {
-    "count": 10,
+    "count": 11,
     "label": ""
   },
   "rv_park": {
@@ -264,7 +264,7 @@
     "label": ""
   },
   "jewelry_store": {
-    "count": 11,
+    "count": 19,
     "label": ""
   },
   "administrative_area_level_2": {
@@ -272,7 +272,7 @@
     "label": ""
   },
   "parking": {
-    "count": 3,
+    "count": 4,
     "label": ""
   },
   "place_of_worship": {
@@ -280,19 +280,19 @@
     "label": ""
   },
   "bicycle_store": {
-    "count": 6,
+    "count": 15,
     "label": ""
   },
   "locksmith": {
-    "count": 1,
+    "count": 5,
     "label": ""
   },
   "physiotherapist": {
-    "count": 1,
+    "count": 2,
     "label": ""
   },
   "car_dealer": {
-    "count": 2,
+    "count": 5,
     "label": ""
   },
   "dentist": {
@@ -308,7 +308,7 @@
     "label": ""
   },
   "car_wash": {
-    "count": 1,
+    "count": 2,
     "label": ""
   },
   "hospital": {
@@ -320,6 +320,10 @@
     "label": ""
   },
   "finance": {
+    "count": 1,
+    "label": ""
+  },
+  "car_rental": {
     "count": 1,
     "label": ""
   }
