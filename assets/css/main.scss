@@ -121,7 +121,8 @@
 			}
 		}
 	}
-	.post { position: relative; margin: 40px 0 0; padding: 40px 40px 80px; border: 1px solid $grey-color-lightest; background: $white; box-shadow: 0 2px 3px rgba($black, .05);
+  .post { position: relative; margin: 40px 0 0; padding: 40px 40px 80px; border: 1px solid $grey-color-lightest; background: $white; box-shadow: 0 2px 3px rgba($black, .05);
+    &.post-news { padding-bottom: 20px;}
 		&.page { padding: 40px; }
 
 		&:first-of-type { margin: 0; }
@@ -143,7 +144,13 @@
 			h1, h2 { font-size: 30px; font-weight: 900; margin: 0 0 20px; color: $grey-color-dark;
 				a { color: $grey-color-dark; @include transition(color .1s ease);
 					&:hover { color: $primary-color; }
-				}
+          small {
+            padding-left:20px;
+            font-size: 16px; line-height: 26px;
+            color: $primary-color;
+          }
+        }
+
 			}
 		}
 

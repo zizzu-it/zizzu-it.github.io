@@ -4,6 +4,29 @@ layout: default
 
 <a class="btn-mappa btn-mappa-home" target="mappa-zizzu" href="https://mappa.zizzu.it">Vai alla mappa</a>
 
+{% for post in paginator.posts %}
+<article class="post post-news" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul>
+            <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-d %b, %Y" }}</time></li>
+            {% if site.show_categories == 1 and post.category %}
+                <li class="cats">
+                    {% for category in post.category %}
+                        <a href="{{site.baseurl}}/{{site.category_dir}}/{{category}}/">{{ category }}</a>
+                    {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+        <h2 itemprop="name headline">
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+            {{ post.title }}
+            <small>leggi</small>
+          </a>
+        </h2>
+    </header>
+</article>
+{% endfor %}
+
 <article class="post" role="article">
     <header class="post-header">
         <h2>

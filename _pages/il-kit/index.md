@@ -2,6 +2,7 @@
 layout: page
 title:  "Kit di istruzioni per Enti"
 permalink: "/il-kit/"
+comments: true
 ---
 
 <p>
@@ -31,4 +32,22 @@ permalink: "/il-kit/"
 </p>
 
 
+{% if page.comments and site.show_comments == 1 %}
+<aside class="comments" role="complementary">
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = '{{ page.url | prepend: site.baseurl | prepend: site.url }}';
+            this.page.identifier = '{{ page.date | date: "%-m/%-d/%Y" }}';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');
 
+            s.src = '//{{site.disqus}}.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+</aside>
+{% endif %}
